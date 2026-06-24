@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-burger">🍔 Burger Haven</h3>
+            <h3 className="text-xl font-bold mb-4 text-burger">🍔 Bunty Restaurant</h3>
             <p className="text-gray-600 text-sm">
-              Crafting delicious burgers since 2020. We use premium ingredients and authentic recipes.
+              Crafting delicious burgers since 2024. We use premium ingredients and authentic recipes.
             </p>
           </div>
 
@@ -30,13 +30,13 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Contact</h4>
             <div className="text-sm space-y-2 text-gray-600">
               <div className="flex items-center gap-2">
-                <Phone size={16} /> <span>+1 (555) 123-4567</span>
+                <Phone size={16} /> <span>+92 XXX XXXXXXX</span>
               </div>
               <div className="flex items-center gap-2">
-                <Mail size={16} /> <span>info@burgerhaven.com</span>
+                <Mail size={16} /> <span>bunty@restaurant.com</span>
               </div>
               <div className="flex items-center gap-2">
-                <MapPin size={16} /> <span>123 Main St, City, State</span>
+                <MapPin size={16} /> <span>Your Address, City, Province</span>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t pt-8 text-center text-gray-600 text-sm">
-          <p>&copy; 2024 Burger Haven. All rights reserved.</p>
+          <p>&copy; 2024 Bunty Restaurant. All rights reserved.</p>
         </div>
       </div>
     </footer>

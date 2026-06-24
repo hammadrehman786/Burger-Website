@@ -34,7 +34,7 @@ const Reservations = () => {
     <main className="reservations-page">
       <div className="reservations-header">
         <h1 className="text-5xl font-bold text-white">Make a Reservation</h1>
-        <p className="text-white mt-2">Book your table at Burger Haven</p>
+        <p className="text-white mt-2">Book your table at Bunty Restaurant</p>
       </div>
 
       <div className="container mx-auto px-4 py-16">
@@ -177,8 +177,8 @@ const Reservations = () => {
 
               <div className="bg-burger text-white p-6 rounded-lg">
                 <h4 className="font-semibold mb-2">Questions?</h4>
-                <p className="mb-2">Call us at: <strong>+1 (555) 123-4567</strong></p>
-                <p>Email: <strong>info@burgerhaven.com</strong></p>
+                <p className="mb-2">Call us at: <strong>+92 XXX XXXXXXX</strong></p>
+                <p>Email: <strong>bunty@restaurant.com</strong></p>
               </div>
             </div>
           </div>

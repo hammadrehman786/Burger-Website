@@ -12,7 +12,7 @@ const Home = () => {
             Premium Burgers, Unforgettable Taste
           </h1>
           <p className="text-xl text-white mb-8 max-w-2xl">
-            Experience the best burgers in town. Crafted with passion, made with premium ingredients.
+            Experience the best burgers at Bunty Restaurant. Crafted with passion, made with premium ingredients.
           </p>
           <div className="flex gap-4 flex-wrap">
             <Link to="/menu" className="btn-primary-lg">
@@ -48,7 +48,7 @@ const Home = () => {
             <div className="feature-card">
               <Truck size={40} className="text-burger mb-4" />
               <h3 className="font-bold text-xl mb-2">Free Delivery</h3>
-              <p className="text-gray-600">Free delivery on orders over $25 within our area.</p>
+              <p className="text-gray-600">Free delivery on orders over Rs. 500 within our area.</p>
             </div>
           </div>
         </div>
@@ -60,9 +60,9 @@ const Home = () => {
           <h2 className="text-4xl font-bold text-center mb-12">Our Popular Items</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: 'Classic Burger', price: '$8.99', desc: 'Our signature burger with fresh beef and veggies' },
-              { name: 'Cheese Deluxe', price: '$10.99', desc: 'Double cheese, bacon, and crispy fries' },
-              { name: 'Spicy Dragon', price: '$11.99', desc: 'Fiery burger with jalapeños and spicy sauce' },
+              { name: 'Classic Burger', price: 'Rs. 350', desc: 'Our signature burger with fresh beef and veggies' },
+              { name: 'Cheese Deluxe', price: 'Rs. 450', desc: 'Double cheese, bacon, and crispy fries' },
+              { name: 'Spicy Dragon', price: 'Rs. 500', desc: 'Fiery burger with jalapeños and spicy sauce' },
             ].map((item, idx) => (
               <div key={idx} className="menu-item-card">
                 <div className="h-48 bg-gradient-to-br from-burger to-gold rounded-lg mb-4"></div>

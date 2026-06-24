@@ -31,7 +31,7 @@ const Contact = () => {
     <main className="contact-page">
       <div className="contact-header">
         <h1 className="text-5xl font-bold text-white">Contact Us</h1>
-        <p className="text-white mt-2">Get in touch with Burger Haven</p>
+        <p className="text-white mt-2">Get in touch with Bunty Restaurant</p>
       </div>
 
       <div className="container mx-auto px-4 py-16">
@@ -39,22 +39,22 @@ const Contact = () => {
           <div className="contact-card">
             <Phone className="text-burger mb-4" size={32} />
             <h3 className="text-xl font-bold mb-2">Phone</h3>
-            <p className="text-gray-600">+1 (555) 123-4567</p>
-            <p className="text-gray-600 text-sm">Mon-Sun: 11:00 AM - 10:00 PM</p>
+            <p className="text-gray-600">+92 XXX XXXXXXX</p>
+            <p className="text-gray-600 text-sm">Mon-Sun: 11:00 AM - 11:00 PM</p>
           </div>
 
           <div className="contact-card">
             <Mail className="text-burger mb-4" size={32} />
             <h3 className="text-xl font-bold mb-2">Email</h3>
-            <p className="text-gray-600">info@burgerhaven.com</p>
+            <p className="text-gray-600">bunty@restaurant.com</p>
             <p className="text-gray-600 text-sm">We'll respond within 24 hours</p>
           </div>
 
           <div className="contact-card">
             <MapPin className="text-burger mb-4" size={32} />
             <h3 className="text-xl font-bold mb-2">Location</h3>
-            <p className="text-gray-600">123 Main Street</p>
-            <p className="text-gray-600 text-sm">City, State 12345</p>
+            <p className="text-gray-600">Your Address</p>
+            <p className="text-gray-600 text-sm">City, Province, Country</p>
           </div>
         </div>
 
@@ -127,7 +127,7 @@ const Contact = () => {
             <div className="map-placeholder mb-8 rounded-lg overflow-hidden h-64 bg-gray-300 flex items-center justify-center">
               <div className="text-center">
                 <MapPin size={48} className="mx-auto mb-2 text-burger" />
-                <p className="text-gray-700 font-semibold">123 Main Street, City, State</p>
+                <p className="text-gray-700 font-semibold">Your Address, City, Province</p>
               </div>
             </div>
 

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <main className="about-page">
       <div className="about-header">
-        <h1 className="text-5xl font-bold text-white">About Burger Haven</h1>
+        <h1 className="text-5xl font-bold text-white">About Bunty Restaurant</h1>
       </div>
 
       <div className="container mx-auto px-4 py-16">
@@ -14,7 +14,7 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Burger Haven was founded in 2020 by passionate food enthusiasts who wanted to bring authentic, high-quality burgers to our community. What started as a small food cart has grown into a beloved local restaurant.
+                Bunty Restaurant was founded in 2024 by Bunty, a passionate food enthusiast who wanted to bring authentic, high-quality burgers to our community. What started as a small food cart has grown into a beloved local restaurant.
               </p>
               <p className="text-gray-700 mb-4 leading-relaxed">
                 We believe in using only the freshest ingredients, sourced locally whenever possible. Every burger is made to order, ensuring you get the best quality and taste with every bite.
@@ -51,9 +51,9 @@ const About = () => {
           <h2 className="text-4xl font-bold mb-12 text-center">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: 'John Smith', role: 'Head Chef', desc: '15 years of culinary experience' },
-              { name: 'Sarah Johnson', role: 'Manager', desc: 'Dedicated to customer satisfaction' },
-              { name: 'Mike Davis', role: 'Chef', desc: 'Expert in grill techniques' },
+              { name: 'Bunty', role: 'Owner & Head Chef', desc: 'Passionate burger expert' },
+              { name: 'Team Member', role: 'Manager', desc: 'Dedicated to customer satisfaction' },
+              { name: 'Team Member', role: 'Chef', desc: 'Expert in grill techniques' },
             ].map((member, idx) => (
               <div key={idx} className="team-member">
                 <div className="member-image"></div>
