@@ -1,4 +1,4 @@
-# 🍔 Burger Haven - Restaurant Website
+# 🍔 BUNTY RESTAURAT - Restaurant Website
 
 A modern, fully-featured restaurant website built with React, Vite, and Tailwind CSS.
 
