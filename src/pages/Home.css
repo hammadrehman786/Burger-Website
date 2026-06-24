@@ -1,0 +1,72 @@
+.hero {
+  background: linear-gradient(135deg, #D4573F 0%, #FFA500 100%);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.btn-primary-lg {
+  background: #D4573F;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+.btn-primary-lg:hover {
+  background: #b83d2c;
+}
+
+.btn-secondary-lg {
+  background: white;
+  color: #D4573F;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  display: inline-block;
+  border: 2px solid white;
+}
+
+.btn-secondary-lg:hover {
+  background: transparent;
+  color: white;
+}
+
+.feature-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  transition: transform 0.3s;
+}
+
+.menu-item-card:hover {
+  transform: translateY(-8px);
+}

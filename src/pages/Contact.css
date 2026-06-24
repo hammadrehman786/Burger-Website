@@ -1,0 +1,38 @@
+.contact-page {
+  background: #f8f8f8;
+}
+
+.contact-header {
+  background: linear-gradient(135deg, #D4573F 0%, #FFA500 100%);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-primary-lg {
+  background: #D4573F;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary-lg:hover {
+  background: #b83d2c;
+}
